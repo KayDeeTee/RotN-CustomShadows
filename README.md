@@ -16,6 +16,8 @@ In this example 48/192 = 1/4 so things on .25 of a beat will have that shadow
 64/192 would be 1/3, 128/192 is 2/3 etc.
 -1 is unmatched
 
+Images should be 512x512. You can trim them if you have unused space, but thats the scale you need to design them for.
+
 ## Compiling
 
 You should just need to put the `Assembly-Csharp.dll` and `BugSplat.Unity.Runtime.dll` from the games files into a folder called `lib` next to plugin then run dotnet build.
